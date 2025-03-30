@@ -6,7 +6,10 @@ This project builds and trains a VGAE using the Elliptic Bitcoin dataset to dete
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Notebook"/>
 </a>
 
-<a href=\"https://colab.research.google.com/github/dvoils/neural-network-experiments/blob/main/elliptic.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>
+<a href="https://colab.research.google.com/github/dvoils/neural-network-experiments/blob/main/elliptic.ipynb" target="_parent">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 
 
 ---
