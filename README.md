@@ -2,10 +2,6 @@
 
 This project builds and trains a VGAE using the Elliptic Bitcoin dataset to detect anomalous transactions in a temporal financial graph. The system learns meaningful latent representations of transactions based on their features and connectivity by modeling the transaction network as a graph. A subgraph of early time steps is used for unsupervised training, after which test transactions are embedded and scored based on their distance from the centroid of known licit transactions in latent space. The model achieves strong performance on unseen future data, highlighting its potential for real-time fraud and anomaly detection in blockchain networks.
 
-<a href="elliptic.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Notebook"/>
-</a>
-
 <a href="https://colab.research.google.com/github/dvoils/neural-network-experiments/blob/main/elliptic.ipynb" target="_parent">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
