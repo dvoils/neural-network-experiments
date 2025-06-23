@@ -1,12 +1,18 @@
-# Anomaly Detection in Bitcoin Transaction Graphs Using Variational Graph Autoencoders
+# Hodgkin–Huxley Dynamics: Phase Space and Firing Patterns
+The Hodgkin–Huxley model describes how electrical signals are generated and propagated in neurons, using equations that capture the flow of ions through specialized channels in the cell membrane. This mathematical framework explains how neurons respond to external inputs, either remaining silent, firing once, or entering a rhythmic spiking pattern. By simulating these equations, it’s possible to visualize how voltage changes over time, how ion channel behavior shapes the neuron’s response, and how different levels of stimulation produce distinct electrical activity.
 
+<a href="https://colab.research.google.com/github/dvoils/neural-network-experiments/blob/main/hodgkin_huxley.ipynb" target="_parent">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+---
+
+# Anomaly Detection in Bitcoin Transaction Graphs Using Variational Graph Autoencoders
 This project builds and trains a VGAE using the Elliptic Bitcoin dataset to detect anomalous transactions in a temporal financial graph. The system learns meaningful latent representations of transactions based on their features and connectivity by modeling the transaction network as a graph. A subgraph of early time steps is used for unsupervised training, after which test transactions are embedded and scored based on their distance from the centroid of known licit transactions in latent space. The model achieves strong performance on unseen future data, highlighting its potential for real-time fraud and anomaly detection in blockchain networks.
 
 <a href="https://colab.research.google.com/github/dvoils/neural-network-experiments/blob/main/elliptic.ipynb" target="_parent">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
-
-
 
 ---
 
