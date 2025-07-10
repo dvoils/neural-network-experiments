@@ -7,6 +7,15 @@ The Hodgkin–Huxley model describes how electrical signals are generated and pr
 
 ---
 
+# Neuronal Ion Channel Dynamics
+Ion channel dynamics in neurons, as described by and extended beyond the Hodgkin-Huxley (HH) model, shape a wide range of spiking behaviors through the interplay of voltage-dependent sodium, potassium, and leak currents. Additional currents, like the persistent sodium current $I_{\text{NaP}}$) and A-type potassium current $I_A$, introduce phenomena such as sustained depolarization and spike delays by modulating excitability over time. Calcium currents, particularly those through low-threshold T-type channels, are better modeled using the Goldman-Hodgkin-Katz (GHK) equation due to the steep calcium gradient and their permeability-based behavior. These channels enable postinhibitory rebound—where hyperpolarization removes inactivation, allowing a rebound spike. High-threshold calcium channels (e.g., $I_L$ open during spikes and drive longer-term calcium entry, which in turn activates potassium currents like $I_C$ and the slower, voltage-independent $I_{\text{AHP}}$. These calcium-activated potassium currents provide spike repolarization and long-term adaptation, enabling neurons to adjust firing rates in response to sustained input.
+
+<a href="https://colab.research.google.com/github/dvoils/neural-network-experiments/blob/main/ion_channels.ipynb" target="_parent">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+---
+
 # Anomaly Detection in Bitcoin Transaction Graphs Using Variational Graph Autoencoders
 This project builds and trains a VGAE using the Elliptic Bitcoin dataset to detect anomalous transactions in a temporal financial graph. The system learns meaningful latent representations of transactions based on their features and connectivity by modeling the transaction network as a graph. A subgraph of early time steps is used for unsupervised training, after which test transactions are embedded and scored based on their distance from the centroid of known licit transactions in latent space. The model achieves strong performance on unseen future data, highlighting its potential for real-time fraud and anomaly detection in blockchain networks.
 
