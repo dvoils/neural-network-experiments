@@ -8,7 +8,9 @@ The Hodgkin–Huxley model describes how electrical signals are generated and pr
 ---
 
 # Neuronal Ion Channel Dynamics
-Ion channel dynamics in neurons, as described by and extended beyond the Hodgkin-Huxley (HH) model, shape a wide range of spiking behaviors through the interplay of voltage-dependent sodium, potassium, and leak currents. Additional currents, like the persistent sodium current $I_{\text{NaP}}$) and A-type potassium current $I_A$, introduce phenomena such as sustained depolarization and spike delays by modulating excitability over time. Calcium currents, particularly those through low-threshold T-type channels, are better modeled using the Goldman-Hodgkin-Katz (GHK) equation due to the steep calcium gradient and their permeability-based behavior. These channels enable postinhibitory rebound—where hyperpolarization removes inactivation, allowing a rebound spike. High-threshold calcium channels (e.g., $I_L$ open during spikes and drive longer-term calcium entry, which in turn activates potassium currents like $I_C$ and the slower, voltage-independent $I_{\text{AHP}}$. These calcium-activated potassium currents provide spike repolarization and long-term adaptation, enabling neurons to adjust firing rates in response to sustained input.
+Ion Channel Dynamics in Neuronal Excitability
+
+Neuronal firing patterns arise from the interplay of voltage- and calcium-dependent currents. Extensions of the Hodgkin-Huxley model include persistent sodium ($I_{\text{NaP}}$), A-type potassium ($I_A$), and calcium currents modeled by the GHK equation. These currents enable spike delay, postinhibitory rebound, and adaptation via calcium-activated potassium currents ($I_C$, $I_{\text{AHP}}$), shaping complex neural responses.
 
 <a href="https://colab.research.google.com/github/dvoils/neural-network-experiments/blob/main/ion_channels.ipynb" target="_parent">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
