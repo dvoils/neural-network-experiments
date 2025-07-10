@@ -1,3 +1,9 @@
+# Oscillatory Systems: Linear to Nonlinear
+
+Oscillators follow differential equations with periodic solutions. Linear systems like the simple pendulum ($\ddot{\theta} + \frac{g}{L} \theta = 0$) have constant frequency, while nonlinear versions ($\sin\theta$ or $x^3$ terms) show amplitude-dependent behavior. Systems like the Duffing oscillator require elliptic functions or simulation, revealing complex, real-world dynamics beyond simple harmonic motion.
+
+---
+
 # Hodgkin–Huxley Dynamics: Phase Space and Firing Patterns
 The Hodgkin–Huxley model describes how electrical signals are generated and propagated in neurons, using equations that capture the flow of ions through specialized channels in the cell membrane. This mathematical framework explains how neurons respond to external inputs, either remaining silent, firing once, or entering a rhythmic spiking pattern. By simulating these equations, it’s possible to visualize how voltage changes over time, how ion channel behavior shapes the neuron’s response, and how different levels of stimulation produce distinct electrical activity.
 
