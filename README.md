@@ -8,7 +8,6 @@ The Hodgkin–Huxley model describes how electrical signals are generated and pr
 ---
 
 # Neuronal Ion Channel Dynamics
-Ion Channel Dynamics in Neuronal Excitability
 
 Neuronal firing patterns arise from the interplay of voltage- and calcium-dependent currents. Extensions of the Hodgkin-Huxley model include persistent sodium ($I_{\text{NaP}}$), A-type potassium ($I_A$), and calcium currents modeled by the GHK equation. These currents enable spike delay, postinhibitory rebound, and adaptation via calcium-activated potassium currents ($I_C$, $I_{\text{AHP}}$), shaping complex neural responses.
 
