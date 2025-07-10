@@ -2,6 +2,11 @@
 
 Oscillators follow differential equations with periodic solutions. Linear systems like the simple pendulum ($\ddot{\theta} + \frac{g}{L} \theta = 0$) have constant frequency, while nonlinear versions ($\sin\theta$ or $x^3$ terms) show amplitude-dependent behavior. Systems like the Duffing oscillator require elliptic functions or simulation, revealing complex, real-world dynamics beyond simple harmonic motion.
 
+<a href="https://colab.research.google.com/github/dvoils/neural-network-experiments/blob/main/osc_dyn.ipynb" target="_parent">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+
 ---
 
 # Hodgkin–Huxley Dynamics: Phase Space and Firing Patterns
