@@ -1,6 +1,6 @@
 # Numerical Analysis and Phase Portrait of the Simple Harmonic Oscillator
 
-The simple harmonic oscillator is governed by the linear second-order differential equation $m\ddot{x} + kx = 0$, describing systems where a restoring force is proportional to displacement. Its solution exhibits sinusoidal motion with a natural frequency $\omega_0 = \sqrt{k/m}$. Numerical integration methods, such as `solve_ivp`, can be used to simulate the system’s dynamics over time. The resulting phase portrait reveals closed elliptical trajectories, indicating periodic motion and conservation of total mechanical energy in the absence of damping. This model serves as a fundamental example in the study of linear dynamical systems.
+The simple harmonic oscillator is governed by the linear second-order differential equation $m\ddot{x} + kx = 0$, describing systems where a restoring force is proportional to displacement. Its solution exhibits sinusoidal motion with a natural frequency $\omega_0 = \sqrt{k/m}$. Numerical integration methods, such as `solve_ivp`, can be used to simulate the system’s dynamics over time. The resulting phase portrait reveals closed elliptical trajectories, indicating periodic motion and conservation of total mechanical energy in the absence of damping.
 
 <a href="https://colab.research.google.com/github/dvoils/neural-network-experiments/blob/main/sho.ipynb" target="_parent">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
