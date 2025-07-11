@@ -1,3 +1,11 @@
+# Numerical Analysis and Phase Portrait of the Simple Harmonic Oscillator
+
+The simple harmonic oscillator is governed by the linear second-order differential equation $m\ddot{x} + kx = 0$, describing systems where a restoring force is proportional to displacement. Its solution exhibits sinusoidal motion with a natural frequency $\omega_0 = \sqrt{k/m}$. Numerical integration methods, such as `solve_ivp`, can be used to simulate the system’s dynamics over time. The resulting phase portrait reveals closed elliptical trajectories, indicating periodic motion and conservation of total mechanical energy in the absence of damping. This model serves as a fundamental example in the study of linear dynamical systems.
+
+<a href="https://colab.research.google.com/github/dvoils/neural-network-experiments/blob/main/sho.ipynb" target="_parent">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 # Oscillatory Systems: Linear to Nonlinear
 
 Oscillators follow differential equations with periodic solutions. Linear systems like the simple pendulum ($\ddot{\theta} + \frac{g}{L} \theta = 0$) have constant frequency, while nonlinear versions ($\sin\theta$ or $x^3$ terms) show amplitude-dependent behavior. Systems like the Duffing oscillator require elliptic functions or simulation, revealing complex, real-world dynamics beyond simple harmonic motion.
